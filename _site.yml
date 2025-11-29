@@ -1,7 +1,7 @@
----
-name: "group-website"
+name: "nanaimo-brewery-website"
+output_dir: "docs"
 navbar:
-  title: "Our Company"
+  title: "Nanaimo Brewery"
   left:
     - text: "Home"
       href: index.html
@@ -9,12 +9,5 @@ navbar:
       href: about.html
     - text: "Team"
       href: team.html
-    - text: "Projects"
+    - text: "Beers"
       href: projects.html
-
-output_dir: "docs"
-
-output:
-  html_document:
-    theme: cosmo
----
