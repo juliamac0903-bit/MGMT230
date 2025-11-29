@@ -1,40 +1,20 @@
 ---
-title: "Welcome"
+title: "Home"
 output: html_document
 ---
 
-# Welcome to Our Company
+# Welcome to Nanaimo Brewery
 
-We are a fictional business created for an R Markdown and GitHub Pages project. Our company focuses on providing professional services and showcasing simple example case studies.
+**Crafting Flavor, One Pint at a Time**
 
-Use the navigation at the top to explore our About page, Projects page, and Team page.
+# Our Mission
 
+At **Nanaimo Brewery**, we brew small-batch, artisanal beers with locally sourced ingredients, blending tradition and innovation for a taste you’ll remember.
 
-## Hello and Welcome!
+# Explore Our Brewery
 
-I'm [Your Name], and this is my portfolio. Here you'll find 
-projects showcasing my skills in:
+Learn more about our story on the [About](about.html) page, meet the passionate people behind our beers on the [Team](team.html) page, or explore our creations on the [Beers](projects.html) page.
 
-- Data cleaning and transformation
-- Statistical analysis
-- Data visualization with ggplot2
-- Professional reporting with R Markdown
+# Cheers!
 
-### Featured Projects
-
-Throughout this portfolio, you'll see analyses covering:
-
-- **Government Data Analysis:** Working with real-world public datasets
-- **Business Performance:** Analyzing operational data for insights
-- **Data Visualization:** Creating compelling charts and graphics
-
-### Navigate This Portfolio
-
-Use the menu above to:
-
-- Learn more [about me](about.html)
-- View my [projects](projects.html)
-
----
-
-*This portfolio was built using R Markdown and is hosted on GitHub Pages.*
+<img src="images/beer-pint.jpg" alt="Nanaimo Brewery Beer" width="600">
