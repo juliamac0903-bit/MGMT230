@@ -1,20 +1,61 @@
----
-name: "group-website"
-navbar:
-  title: "Our Company"
-  left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Team"
-      href: team.html
-    - text: "Projects"
-      href: projects.html
+name: Deploy R Markdown Website
 
-output_dir: "docs"
+# Controls when the workflow runs
+on:
+  push:
+    # Triggers the workflow every time there is a push to the main branch
+    branches: [ main ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-output:
-  html_document:
-    theme: cosmo
----
+# Defines the jobs that run in the workflow
+jobs:
+  build-and-deploy:
+    # The type of runner that the job will execute on
+    runs-on: ubuntu-latest
+    
+    # Permissions required to deploy to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Checkout repository
+      # Checks out the repository so the workflow can access it
+      uses: actions/checkout@v4
+
+    - name: Set up R
+      # Installs R on the runner
+      uses: r-lib/actions/setup-r@v2
+
+    - name: Install dependencies
+      # Installs the rmarkdown package (and any others you need)
+      # If your Rmd files use packages like 'dplyr' or 'ggplot2', add them here!
+      run: |
+        install.packages("rmarkdown")
+        # Example: install.packages("dplyr")
+        # Example: install.packages("ggplot2")
+      shell: Rscript {0}
+
+    - name: Render R Markdown site
+      # Runs the command to build the entire website into the 'docs/' folder
+      run: rmarkdown::render_site()
+      shell: Rscript {0}
+
+    # --- GitHub Pages Deployment Steps ---
+    
+    - name: Configure GitHub Pages
+      # Configures the job to deploy using the GitHub Pages environment
+      uses: actions/configure-pages@v5
+
+    - name: Upload pages artifact
+      # Uploads the contents of the 'docs/' folder as a deployable artifact
+      uses: actions/upload-pages-artifact@v4
+      with:
+        path: 'docs' # This path MUST match output_dir in your _site.yml
+
+    - name: Deploy to GitHub Pages
+      # The final step that publishes the artifact to your live site
+      id: deployment
+      uses: actions/deploy-pages@v4
