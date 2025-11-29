@@ -1,20 +1,18 @@
 ---
-title: "Home"
+title: "About"
 output: html_document
 ---
 
-# Welcome to Nanaimo Brewery
+# About Nanaimo Brewery
 
-**Crafting Flavor, One Pint at a Time**
+Founded in 2025 in Nanaimo, BC, **Nanaimo Brewery** is dedicated to creating high-quality, small-batch craft beers. Our mission is to deliver unique flavors and a community experience for beer lovers of all kinds.
 
-# Our Mission
+# What We Offer
 
-At **Nanaimo Brewery**, we brew small-batch, artisanal beers with locally sourced ingredients, blending tradition and innovation for a taste you’ll remember.
+- **Craft Beers:** A rotating selection of ales, stouts, lagers, and IPAs.
+- **Brewery Tours:** Explore how we craft our beers, from grain to glass.
+- **Events & Tastings:** Monthly tastings and local events for enthusiasts.
 
-# Explore Our Brewery
+# Our Customers
 
-Learn more about our story on the [About](about.html) page, meet the passionate people behind our beers on the [Team](team.html) page, or explore our creations on the [Beers](projects.html) page.
-
-# Cheers!
-
-<img src="images/beer-pint.jpg" alt="Nanaimo Brewery Beer" width="600">
+We serve beer enthusiasts, local restaurants, and anyone looking for a premium craft beer experience.
