@@ -1,39 +1,60 @@
 name: Deploy R Markdown Website
 
+# Controls when the workflow runs
 on:
   push:
-    branches: main # Assuming your branch is 'main'
+    # Triggers the workflow every time there is a push to the main branch
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     
+    # Permissions required to deploy to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     steps:
     - name: Checkout repository
+      # Checks out the repository so the workflow can access it
       uses: actions/checkout@v4
 
     - name: Set up R
+      # Installs R on the runner
       uses: r-lib/actions/setup-r@v2
 
+    - name: Install Pandoc 
+      # This step installs the Pandoc tool required for R Markdown to compile HTML
+      uses: r-lib/actions/setup-pandoc@v2
+
     - name: Install dependencies
-      # IMPORTANT: Add any other packages your Rmd files require here
+      # Installs the rmarkdown package (and any others you need)
       run: |
         install.packages("rmarkdown")
+        # If you use other packages (like dplyr, ggplot2), list them here
       shell: Rscript {0}
 
     - name: Render R Markdown site
+      # Runs the command to build the entire website into the 'docs/' folder
       run: rmarkdown::render_site()
       shell: Rscript {0}
 
+    # --- GitHub Pages Deployment Steps ---
+    
     - name: Configure GitHub Pages
+      # Configures the job to deploy using the GitHub Pages environment
       uses: actions/configure-pages@v5
 
-    - name: Upload artifact
-      # NOTE: Using v4 of this action which fixed the error in your previous repo
+    - name: Upload pages artifact
+      # Uploads the contents of the 'docs/' folder as a deployable artifact
       uses: actions/upload-pages-artifact@v4
       with:
-        path: docs/ # Must match output_dir in _site.yml
+        path: 'docs' # This path MUST match output_dir in your _site.yml
 
     - name: Deploy to GitHub Pages
+      # The final step that publishes the artifact to your live site
       id: deployment
       uses: actions/deploy-pages@v4
