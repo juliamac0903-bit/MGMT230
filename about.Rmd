@@ -1,6 +1,9 @@
 ---
 title: "About"
-output: html_document
+output:
+  html_document:
+    theme: journal
+    toc: false
 ---
 
 # About Nanaimo Brewery
