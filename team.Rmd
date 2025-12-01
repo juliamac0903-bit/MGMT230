@@ -1,18 +1,18 @@
 ---
-title: "Team"
+title: "Meet our Team"
 output: html_document
 ---
 
 # Meet Our Team
 
-## Davis Sato– Head Brewer
-Davis brings over 10 years of brewing experience, specializing in IPAs and stouts. He ensures every batch meets our high-quality standards.
+## Davis Sato– Sales & Client Relations
+Davis oversees the team's sales and customer relations division and has a solid background in business and practical experience. His main goals are to establish sincere relationships and provide each client with a seamless, encouraging experience.
 
-## Matthew Fleet – Marketing & Sales
-Matthew manages marketing campaigns and customer engagement, sharing our passion for craft beer with the community.
+## Matthew Fleet – Accounting Manager
+Matthew brings a clear, analytical mindset to the business's financial operations as an accounting major. He maintains the accuracy of the numbers and gives the team consistent direction so they can make decisions with confidence.
 
 ## Taya Gannon – Operations Manager
-Taya oversees production schedules and logistics, making sure our brewery runs smoothly every day.
+Taya uses her experience in management to maintain the smooth operation. She ensures that the team remains focused and well-coordinated, keeps projects organized, and communicates effectively.
 
-## Julia MacLachlan – Quality Control & Tasting
-Julia guarantees that every beer meets taste and quality standards before reaching customers.
+## Julia MacLachlan – Marketing & Creative Director
+Julia, a marketing major, directs the brand's creative and promotional strategies. She creates the company's voice, directs its visual identity, and oversees marketing initiatives that improve the company's public image.
