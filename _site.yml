@@ -1,8 +1,8 @@
 name: "nanaimo-brewery-website"
 output_dir: "docs"
 navbar:
-  title: "Nanaimo Brewery"
-  left:
+  title: "Mariner Brewing Co"
+  left: 
     - text: "Home"
       href: index.html
     - text: "About"
