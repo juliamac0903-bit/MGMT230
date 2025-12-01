@@ -5,7 +5,8 @@ output: html_document
 
 # About Nanaimo Brewery
 
-Founded in 2025 in Nanaimo, BC, **Nanaimo Brewery** is dedicated to creating high-quality, small-batch craft beers. Our mission is to deliver unique flavors and a community experience for beer lovers of all kinds.
+Our goal at .... is to revitalize the Hub City's social fabric by fusing the craft of traditional craft brewing with a contemporary, welcoming community area. Our goal is to create a setting where Nanaimo's future generation, from college students to young professionals, can unplug from the internet and re-establish connections with one another.
+Great conversation, in our opinion, is sparked by great beer. We hope to promote a culture of curiosity by demystifying the brewing process through interactive workshops, educational tasting flights, and open-concept production. We are creating a space where strangers become neighbors and where each pint poured adds to a more vibrant, connected community—we are not merely serving drinks."
 
 # What We Offer
 
