@@ -1,6 +1,9 @@
 ---
 title: "Meet our Team"
-output: html_document
+output:
+  html_document:
+    theme: journal
+    toc: false
 ---
 
 # Meet Our Team
