@@ -1,6 +1,9 @@
 ---
 title: "Our Beers"
-output: html_document
+output:
+  html_document:
+    theme: journal
+    toc: false
 ---
 
 # Featured Beers
