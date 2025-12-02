@@ -6,13 +6,13 @@ output:
     toc: false
 ---
 
-# Welcome to Nanaimo Brewery
+# Welcome to Mariner Brewing Co
 
-**Crafting Flavor, One Pint at a Time**
+**Creating Connections, one conversation at a time**
 
 # Our Mission
 
-At **Nanaimo Brewery**, we brew small-batch, artisanal beers with locally sourced ingredients, blending tradition and innovation for a taste you’ll remember.
+At **Mariner Brewing Co**, our mission is to become the go-to place where ambitious students, young professionals, and local entrepreneurs can build meaningful connections and create opportunities for one another.
 
 # Explore Our Brewery
 
