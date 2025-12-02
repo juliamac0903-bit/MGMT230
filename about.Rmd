@@ -6,10 +6,11 @@ output:
     toc: false
 ---
 
-# About Nanaimo Brewery
+# About Mariner Brewing Co
 
-Our goal at .... is to revitalize the Hub City's social fabric by fusing the craft of traditional craft brewing with a contemporary, welcoming community area. Our goal is to create a setting where Nanaimo's future generation, from college students to young professionals, can unplug from the internet and re-establish connections with one another.
-Great conversation, in our opinion, is sparked by great beer. We hope to promote a culture of curiosity by demystifying the brewing process through interactive workshops, educational tasting flights, and open-concept production. We are creating a space where strangers become neighbors and where each pint poured adds to a more vibrant, connected community—we are not merely serving drinks."
+Our goal at Mariner Brewing Co. is to bring a new energy to Nanaimo's social scene. Our goal is to provide a physical space for young professionals and college students to unplug and reconnect.
+
+We believe great beer leads to great conversation. Through hands-on workshops, tasting flights, and an open-style brewing area, we aim to make the brewing process easy to understand and fun to explore. We're creating a place where strangers can become friends and every pint contributes to the development of a more vibrant, connected community, we're not just serving drinks.
 
 # What We Offer
 
@@ -19,4 +20,4 @@ Great conversation, in our opinion, is sparked by great beer. We hope to promote
 
 # Our Customers
 
-We serve beer enthusiasts, local restaurants, and anyone looking for a premium craft beer experience.
+Our customers are young professionals and students looking for a relaxed space to build real connections. This space offers the opportunity to network naturally and enjoy quality craft beer while doing it.
