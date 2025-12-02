@@ -5,9 +5,6 @@ output:
     theme: journal
     toc: false
 ---
-
-# Meet Our Team
-
 ## Davis Sato– Sales & Client Relations
 Davis oversees the team's sales and customer relations division and has a solid background in business and practical experience. His main goals are to establish sincere relationships and provide each client with a seamless, encouraging experience.
 
