@@ -3,34 +3,69 @@ title: "Home"
 output:
   html_document:
     theme: journal
-    toc: false
+    highlight: textmate
+    css: styles.css
+---
+<style>
+a:link, a:visited {
+  color: #1a4ed8;   /* nice blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a2fa3;   /* darker blue on hover */
+  text-decoration: underline;
+}
+</style>
+<div class="page-header">
+  <h1>Mariner Brewing Co.</h1>
+  <em>Crafting exceptional brews, one conversation at a time.</em>
+</div>
+
+
+<div class="content-section">
+
+## Our Mission
+At Mariner Brewing Co., we aim to be the go-to gathering place for students, young professionals, and local entrepreneurs. Our space is designed for connection—whether you're sharing ideas, meeting new people, or simply enjoying great beer crafted with care.
+
+```{r fig-alignment, echo=FALSE, out.width='70%', fig.align='center'}
+# This function handles image inclusion across different output formats (HTML/PDF)
+knitr::include_graphics("images/logo.png")
+```
 ---
 
-# Welcome to Mariner Brewing Co
+## Explore Our Brewery
+Discover who we are, what we brew, and the people behind every pint.
 
-**Creating Connections, one conversation at a time**
+- Visit the **About** page to learn our story  
+- Meet the team on the **Team** page  
+- See what’s on tap on the **Beers** page  
 
-<!-- Our Mission --> <div style="text-align: center; max-width: 900px; margin: 0 auto;">
+---
 
-At **Mariner Brewing Co**, our mission is to become the go-to place where ambitious students, young professionals, and local entrepreneurs can build meaningful connections and create opportunities for one another.
+## Our Value Proposition
+We craft small-batch, artisanal beers inspired by local flavors and Vancouver Island’s unique spirit. From bold IPAs to rich stouts, every brew reflects our commitment to quality, creativity, and community.
 
-# Explore Our Brewery
+---
 
-Learn more about our story on the [About](about.html) page, meet the passionate people behind our beers on the [Team](team.html) page, or explore our creations on the [Beers](projects.html) page.
+## Featured Sections
 
-# Cheers!
+### Our Beers
+Explore our rotating lineup of craft beers—from seasonal releases to fan favorites.  
+**[Learn More](beers.html)**
 
-<img src="images/beer-pint.jpg" alt="Nanaimo Brewery Beer" width="600">
+### About Us
+Get to know our journey, brewing philosophy, and what makes us unique.  
+**[Learn More](about.html)**
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+---
 
-<br><br>
+## Ready to Taste the Difference?
+We’d love to share a pint with you.  
+**[Plan Your Visit](visit.html)**
 
-<!-- Value Proposition Section --> <div style="text-align: center; max-width: 900px; margin: 0 auto;"> <h2>Our Value Proposition</h2> <p style="font-size: 1.2em; line-height: 1.6;"> At <strong>Nanaimo Brewery</strong>, we craft small-batch, artisanal beers that celebrate local flavors and community spirit. From hoppy IPAs to smooth stouts, we bring quality, creativity, and passion to every pint. Our mission is to provide beer lovers with a unique experience, combining taste, craftsmanship, and community connection. </p> </div>
+</div>
 
-
-<br><br>
-
-<!-- Call-to-Action Footer --> <div id="visit" style="background-color: #4169E1; color: white; text-align: center; padding: 50px; border-radius: 15px;"> <h2>Ready to taste the difference?</h2> <p>Come by Nanaimo Brewery and enjoy your next favorite beer.</p> <a href="visit.html" style="padding: 15px 35px; background-color: #A7C7E7; color: white; border-radius: 10px; text-decoration: none; font-size: 1.2em;">Plan Your Visit</a> </div> ```
+<div class="footer">
+© 2025 Nanaimo Brewery — Nanaimo, BC
+</div>
