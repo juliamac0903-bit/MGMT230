@@ -53,7 +53,7 @@ We craft small-batch, artisanal beers inspired by local flavors and Vancouver Is
 
 ### Our Beers
 Explore our rotating lineup of craft beers—from seasonal releases to fan favorites.  
-**[Learn More](beers.html)**
+**[Learn More](projects.html)**
 
 ### About Us
 Get to know our journey, brewing philosophy, and what makes us unique.  
