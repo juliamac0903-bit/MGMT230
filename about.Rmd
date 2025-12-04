@@ -3,23 +3,27 @@ title: "About"
 output:
   html_document:
     theme: journal
-    toc: false
+    highlight: textmate
+    css: styles.css
+---
+# Mariner Brewing Co
+
+Since our grand opening in 2025, our goal at Mariner Brewing Co. has been to bring new energy to Nanaimo’s social scene. We aim to provide a relaxed, welcoming space where young professionals and college students can unplug, connect, and enjoy quality craft beer.
+
+We believe great beer leads to great conversation. Through hands-on workshops, tasting flights, and an open-style brewing environment, we make the brewing process easy to understand and fun to explore. We’re building a place where strangers become friends and every pint helps create a more vibrant, connected community—not just a place that serves drinks.
+
 ---
 
-# About Mariner Brewing Co
+## What We Offer
 
-Since our grand opening in 2024, our goal at Mariner Brewing Co. has been to bring a new energy to Nanaimo's social scene. Our goal is to provide a physical space for young professionals and college students to unplug and reconnect.
+- **Craft Beers:** A rotating selection of ales, stouts, lagers, and IPAs.  
+- **Networking Nights:** Casual meet-ups for students, young professionals, and local entrepreneurs.  
+- **Co-working Hours:** Quiet daytime space for productivity and collaboration.  
+- **Workshops & Skill Sessions:** Brewing classes, resume/portfolio nights, and talks from local business owners.  
+- **Brewery Tours:** Learn the ins and outs of our brewing process.
 
-We believe great beer leads to great conversation. Through hands-on workshops, tasting flights, and an open-style brewing area, we aim to make the brewing process easy to understand and fun to explore. We're creating a place where strangers can become friends and every pint contributes to the development of a more vibrant, connected community, we're not just serving drinks.
+---
 
-# What We Offer
+## Our Customers
 
-- **Craft Beers:** A rotating selection of ales, stouts, lagers, and IPAs.
-- **Networking Nights:** Casual meet-ups that bring together students, young professionals, and local entrepreneurs to connect and share ideas.
-- **Co-working Hours:** Quiet daytime hours for likeminded individuals to work and connect.
-- **Workshops and Skills Sessions:** Intro brewing classes, resume/portfolio nights, or guest talks from local business owners.
-- **Brewery Tours:** Learn the ins and outs of our beer making process.
-
-# Our Customers
-
-Our customers are young professionals and students looking for a relaxed space to build real connections. This space offers the opportunity to network naturally and enjoy quality craft beer while doing it.
+Our customers are young professionals and students looking for a relaxed space to build real connections. Mariner Brewing Co. provides a unique environment where networking happens naturally—over a good conversation and a great craft beer.
