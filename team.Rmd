@@ -4,7 +4,6 @@ output:
   html_document:
     theme: journal
     highlight: textmate
-    css: styles.css
 ---
 # Meet Our Team
 
@@ -25,3 +24,9 @@ Taya uses her management expertise to ensure daily operations run smoothly. She 
 
 ## Julia MacLachlan — Marketing & Creative Director
 Julia, a marketing major, leads the company’s branding and promotions. She shapes the brewery’s visual identity, builds its voice, and designs campaigns that strengthen the company’s presence in the community.
+
+---
+```{r fig-alignment, echo=FALSE, out.width='70%', fig.align='center'}
+# This function handles image inclusion across different output formats (HTML/PDF)
+knitr::include_graphics("images/team.png")
+```
