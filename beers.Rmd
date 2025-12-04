@@ -26,7 +26,7 @@ A light, refreshing wheat ale with tropical fruit undertones—perfect for summe
 
 ---
 
-knitr::include_graphics("images/logo.png")
+knitr::include_graphics("images/beer.png")
 ```{r fig-alignment, echo=FALSE, out.width='70%', fig.align='center'}
 # This function handles image inclusion across different output formats (HTML/PDF)
 knitr::include_graphics("images/beer.png")
