@@ -1,18 +1,27 @@
 ---
-title: "Meet our Team"
+title: "Team"
 output:
   html_document:
     theme: journal
-    toc: false
+    highlight: textmate
+    css: styles.css
 ---
-## Davis Sato– Sales & Client Relations
-Davis oversees the team's sales and customer relations division and has a solid background in business and practical experience. His main goals are to establish sincere relationships and provide each client with a seamless, encouraging experience.
+# Meet Our Team
 
-## Matthew Fleet – Accounting Manager
-Matthew brings a clear, analytical mindset to the business's financial operations as an accounting major. He maintains the accuracy of the numbers and gives the team consistent direction so they can make decisions with confidence.
+## Davis Sato — Sales & Client Relations
+Davis oversees the team’s sales and customer relations division, bringing a strong background in business and hands-on experience. His focus is on building genuine relationships and ensuring every customer enjoys a smooth, positive experience.
 
-## Taya Gannon – Operations Manager
-Taya uses her experience in management to maintain the smooth operation. She ensures that the team remains focused and well-coordinated, keeps projects organized, and communicates effectively.
+---
 
-## Julia MacLachlan – Marketing & Creative Director
-Julia, a marketing major, directs the brand's creative and promotional strategies. She creates the company's voice, directs its visual identity, and oversees marketing initiatives that improve the company's public image.
+## Matthew Fleet — Accounting Manager
+Matthew brings a clear, analytical mindset to the financial side of the business. As an accounting major, he maintains accuracy, provides stability, and helps guide the team’s decision-making with confidence.
+
+---
+
+## Taya Gannon — Operations Manager
+Taya uses her management expertise to ensure daily operations run smoothly. She keeps the team organized, coordinated, and on track, helping projects flow efficiently from start to finish.
+
+---
+
+## Julia MacLachlan — Marketing & Creative Director
+Julia, a marketing major, leads the company’s branding and promotions. She shapes the brewery’s visual identity, builds its voice, and designs campaigns that strengthen the company’s presence in the community.
