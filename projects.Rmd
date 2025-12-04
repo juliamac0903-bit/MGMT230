@@ -4,7 +4,6 @@ output:
   html_document:
     theme: journal
     highlight: textmate
-    css: styles.css
 ---
 
 # Featured Beers
@@ -24,6 +23,8 @@ A rich, dark stout with hints of chocolate and coffee. Ideal for a smooth, full-
 ## Summer Wheat Ale
 A light, refreshing wheat ale with tropical fruit undertones—perfect for summer gatherings.  
 **Key Skills Demonstrated:** Seasonal brewing, ingredient sourcing, community engagement
+
+---
 
 ```{r fig-alignment, echo=FALSE, out.width='70%', fig.align='center'}
 # This function handles image inclusion across different output formats (HTML/PDF)
