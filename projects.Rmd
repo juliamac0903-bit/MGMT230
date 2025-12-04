@@ -3,22 +3,29 @@ title: "Our Beers"
 output:
   html_document:
     theme: journal
-    toc: false
+    highlight: textmate
+    css: styles.css
 ---
 
 # Featured Beers
 
 ## Firecracker IPA
-A bold, hoppy IPA with notes of citrus and pine. Perfect for those who love a strong, flavorful beer.
-
+A bold, hoppy IPA with citrus and pine notes—perfect for those who enjoy a strong, flavorful beer.  
 **Key Skills Demonstrated:** Brewing, flavor profiling, small-batch production
 
-## Midnight Stout
-A rich, dark stout with hints of chocolate and coffee. Ideal for a smooth evening drink.
+---
 
+## Midnight Stout
+A rich, dark stout with hints of chocolate and coffee. Ideal for a smooth, full-bodied evening drink.  
 **Key Skills Demonstrated:** Roasting techniques, quality control, recipe development
 
-## Summer Wheat Ale
-A light, refreshing wheat ale with tropical fruit undertones. Great for summer gatherings.
+---
 
+## Summer Wheat Ale
+A light, refreshing wheat ale with tropical fruit undertones—perfect for summer gatherings.  
 **Key Skills Demonstrated:** Seasonal brewing, ingredient sourcing, community engagement
+
+```{r fig-alignment, echo=FALSE, out.width='70%', fig.align='center'}
+# This function handles image inclusion across different output formats (HTML/PDF)
+knitr::include_graphics("images/beer.png")
+```
