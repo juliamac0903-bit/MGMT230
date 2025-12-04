@@ -4,7 +4,6 @@ output:
   html_document:
     theme: journal
     highlight: textmate
-    css: styles.css
 ---
 <style>
 a:link, a:visited {
@@ -58,14 +57,20 @@ Explore our rotating lineup of craft beers—from seasonal releases to fan favor
 Get to know our journey, brewing philosophy, and what makes us unique.  
 **[Learn More](about.html)**
 
+### Our Team
+Get to know our journey, brewing philosophy, and what makes us unique.  
+**[Learn More](team.html)**
+
 ---
 
 ## Ready to Taste the Difference?
 We’d love to share a pint with you.  
-**[Plan Your Visit](visit.html)**
+
 
 </div>
 
 <div class="footer">
 © 2025 Nanaimo Brewery — Nanaimo, BC
 </div>
+
+
